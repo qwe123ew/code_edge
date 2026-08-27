@@ -1,0 +1,41 @@
+{
+  "name": "bsds_97010_原图",
+  "size": [
+    481,
+    321
+  ],
+  "lbm_denoise": {
+    "time_ms": 132,
+    "noise": 196.0,
+    "mode": "light",
+    "applied": true,
+    "n_steps": 5,
+    "tau_max": 0.6
+  },
+  "canny": {
+    "pixels": 22763,
+    "ratio": 0.1474,
+    "time_ms": 1
+  },
+  "segment": {
+    "n_segments": 1455,
+    "skeleton_pixels": 12157,
+    "branch_points": 6125,
+    "n_adj_pairs": 228,
+    "time_ms": 72
+  },
+  "segment_4color": {
+    "used_colors": 3,
+    "conflicts": 0
+  },
+  "extract_objects": {
+    "n_objects": 37,
+    "object_pixels": 2601,
+    "time_ms": 3
+  },
+  "region_4color": {
+    "n_regions": 37,
+    "used_colors": 1,
+    "conflicts": 0
+  }
+}

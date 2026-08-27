@@ -1,0 +1,50 @@
+{
+  "image": "图片物体边缘的提取分割",
+  "path": "C:\\Users\\18607\\Desktop\\边缘识别模型方法\\图片物体边缘的提取分割.png",
+  "thresholds": {
+    "opencv_canny": [
+      10,
+      100
+    ],
+    "skimage_canny": {
+      "low": 0.05,
+      "high": 0.15,
+      "sigma": 1.0
+    },
+    "pidinet_bin": 128,
+    "dexined_bin": 128
+  },
+  "size": [
+    438,
+    158
+  ],
+  "opencv_canny": {
+    "pixels": 9439,
+    "ratio": 0.1364,
+    "time_ms": 6
+  },
+  "skimage_canny": {
+    "pixels": 8544,
+    "ratio": 0.1235,
+    "time_ms": 204
+  },
+  "pidinet": {
+    "ok": true,
+    "elapsed_ms": 2425,
+    "returncode": 0,
+    "stdout_tail": "s\\18607\\Desktop\\边缘识别模型方法\\图片物体边缘的提取分割.png\n原图尺寸      : (158, 438)\ncheckpoint    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\PyTorch PiDiNet 实现\\pidinet-master\\trained_models\\table5_pidinet.pth\n边缘图已保存   : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_pidinet_edges.png\n二值图已保存   : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_pidinet_binary.png\n边缘强度范围   : min=0.0006, max=0.8963, mean=0.2839\n"
+  },
+  "dexined": {
+    "ok": true,
+    "elapsed_ms": 1671,
+    "returncode": 0,
+    "stdout_tail": "sed 边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_dexined_fused.png   (0.000~0.969)\navg   边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_dexined_avg.png   (0.008~0.911)\nfused 二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_dexined_fused_binary.png\navg   二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_dexined_avg_binary.png\n"
+  },
+  "dexined_double": {
+    "ok": true,
+    "elapsed_ms": 1831,
+    "returncode": 0,
+    "stdout_tail": "Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_dexined_double_fused.png   (0.000~0.969)\navg   边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_dexined_double_avg.png   (0.007~0.909)\nfused 二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_dexined_double_fused_binary.png\navg   二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_dexined_double_avg_binary.png\n"
+  },
+  "comparison_image": "C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_comparison.png"
+}

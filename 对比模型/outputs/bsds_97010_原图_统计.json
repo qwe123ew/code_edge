@@ -1,0 +1,50 @@
+{
+  "image": "bsds_97010_原图",
+  "path": "C:\\Users\\18607\\Desktop\\bsds_97010_原图.jpg",
+  "thresholds": {
+    "opencv_canny": [
+      10,
+      100
+    ],
+    "skimage_canny": {
+      "low": 0.05,
+      "high": 0.15,
+      "sigma": 1.0
+    },
+    "pidinet_bin": 128,
+    "dexined_bin": 128
+  },
+  "size": [
+    481,
+    321
+  ],
+  "opencv_canny": {
+    "pixels": 37641,
+    "ratio": 0.2438,
+    "time_ms": 3
+  },
+  "skimage_canny": {
+    "pixels": 31783,
+    "ratio": 0.2058,
+    "time_ms": 7
+  },
+  "pidinet": {
+    "ok": true,
+    "elapsed_ms": 2686,
+    "returncode": 0,
+    "stdout_tail": "sers\\18607\\Desktop\\bsds_97010_原图.jpg\n原图尺寸      : (321, 481)\ncheckpoint    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\PyTorch PiDiNet 实现\\pidinet-master\\trained_models\\table5_pidinet.pth\n边缘图已保存   : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_pidinet_edges.png\n二值图已保存   : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_pidinet_binary.png\n边缘强度范围   : min=0.0000, max=0.9873, mean=0.1377\n"
+  },
+  "dexined": {
+    "ok": true,
+    "elapsed_ms": 1888,
+    "returncode": 0,
+    "stdout_tail": "   : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_dexined_fused.png   (0.000~0.962)\navg   边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_dexined_avg.png   (0.008~0.939)\nfused 二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_dexined_fused_binary.png\navg   二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_dexined_avg_binary.png\n"
+  },
+  "dexined_double": {
+    "ok": true,
+    "elapsed_ms": 2127,
+    "returncode": 0,
+    "stdout_tail": "边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_dexined_double_fused.png   (0.000~0.961)\navg   边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_dexined_double_avg.png   (0.007~0.938)\nfused 二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_dexined_double_fused_binary.png\navg   二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_dexined_double_avg_binary.png\n"
+  },
+  "comparison_image": "C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_comparison.png"
+}

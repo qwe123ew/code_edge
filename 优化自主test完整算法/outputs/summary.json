@@ -1,0 +1,161 @@
+[
+  {
+    "input": "C:\\Users\\18607\\Desktop\\边缘识别模型方法\\图片物体边缘的提取分割.png",
+    "image_size": [
+      438,
+      158
+    ],
+    "color_mode": true,
+    "gradient_mode": "tensor",
+    "edge_pixels": 6325,
+    "skeleton_pixels": 5899,
+    "junction_pixels": 80,
+    "n_segments": 88,
+    "n_adjacent_pairs": 57,
+    "n_closed_segments": 3,
+    "mean_segment_length": 66.39,
+    "max_segment_length": 755.79,
+    "total_segment_length": 5842.75,
+    "four_color_used": 3,
+    "four_color_enough": true,
+    "four_color_violations": 0,
+    "n_objects": 12,
+    "object_sizes_top5": [
+      75,
+      83,
+      110,
+      151,
+      562
+    ],
+    "n_region_adjacent_pairs": 10,
+    "region_four_color_used": 2,
+    "region_four_color_enough": true,
+    "run_pipeline_elapsed_ms": 179.0
+  },
+  {
+    "input": "C:\\Users\\18607\\Desktop\\bsds_368037_原图.jpg",
+    "image_size": [
+      481,
+      321
+    ],
+    "color_mode": true,
+    "gradient_mode": "tensor",
+    "edge_pixels": 9458,
+    "skeleton_pixels": 8771,
+    "junction_pixels": 147,
+    "n_segments": 159,
+    "n_adjacent_pairs": 65,
+    "n_closed_segments": 1,
+    "mean_segment_length": 55.65,
+    "max_segment_length": 1136.59,
+    "total_segment_length": 8847.94,
+    "four_color_used": 3,
+    "four_color_enough": true,
+    "four_color_violations": 0,
+    "n_objects": 6,
+    "object_sizes_top5": [
+      30,
+      44,
+      45,
+      49,
+      73
+    ],
+    "n_region_adjacent_pairs": 4,
+    "region_four_color_used": 2,
+    "region_four_color_enough": true,
+    "run_pipeline_elapsed_ms": 417.5
+  },
+  {
+    "input": "C:\\Users\\18607\\Desktop\\bsds_97010_原图.jpg",
+    "image_size": [
+      481,
+      321
+    ],
+    "color_mode": true,
+    "gradient_mode": "tensor",
+    "edge_pixels": 13258,
+    "skeleton_pixels": 10972,
+    "junction_pixels": 449,
+    "n_segments": 292,
+    "n_adjacent_pairs": 175,
+    "n_closed_segments": 7,
+    "mean_segment_length": 36.2,
+    "max_segment_length": 600.66,
+    "total_segment_length": 10571.22,
+    "four_color_used": 3,
+    "four_color_enough": true,
+    "four_color_violations": 0,
+    "n_objects": 31,
+    "object_sizes_top5": [
+      209,
+      225,
+      286,
+      424,
+      594
+    ],
+    "n_region_adjacent_pairs": 25,
+    "region_four_color_used": 3,
+    "region_four_color_enough": true,
+    "run_pipeline_elapsed_ms": 448.2
+  },
+  {
+    "input": "C:\\Users\\18607\\Desktop\\nyud_5017_原图.png",
+    "image_size": [
+      224,
+      170
+    ],
+    "color_mode": true,
+    "gradient_mode": "tensor",
+    "edge_pixels": 2918,
+    "skeleton_pixels": 2753,
+    "junction_pixels": 56,
+    "n_segments": 44,
+    "n_adjacent_pairs": 21,
+    "n_closed_segments": 1,
+    "mean_segment_length": 61.39,
+    "max_segment_length": 650.37,
+    "total_segment_length": 2701.19,
+    "four_color_used": 3,
+    "four_color_enough": true,
+    "four_color_violations": 0,
+    "n_objects": 3,
+    "object_sizes_top5": [
+      66,
+      69,
+      1069
+    ],
+    "n_region_adjacent_pairs": 4,
+    "region_four_color_used": 3,
+    "region_four_color_enough": true,
+    "run_pipeline_elapsed_ms": 79.1
+  },
+  {
+    "input": "C:\\Users\\18607\\Desktop\\nyud_6233_原图.png",
+    "image_size": [
+      224,
+      170
+    ],
+    "color_mode": true,
+    "gradient_mode": "tensor",
+    "edge_pixels": 2625,
+    "skeleton_pixels": 2409,
+    "junction_pixels": 22,
+    "n_segments": 56,
+    "n_adjacent_pairs": 14,
+    "n_closed_segments": 1,
+    "mean_segment_length": 44.02,
+    "max_segment_length": 194.6,
+    "total_segment_length": 2465.04,
+    "four_color_used": 3,
+    "four_color_enough": true,
+    "four_color_violations": 0,
+    "n_objects": 1,
+    "object_sizes_top5": [
+      30
+    ],
+    "n_region_adjacent_pairs": 1,
+    "region_four_color_used": 2,
+    "region_four_color_enough": true,
+    "run_pipeline_elapsed_ms": 90.0
+  }
+]

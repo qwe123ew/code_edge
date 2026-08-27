@@ -1,0 +1,256 @@
+{
+  "total_ms": 31526,
+  "n_images": 5,
+  "results": [
+    {
+      "image": "图片物体边缘的提取分割",
+      "path": "C:\\Users\\18607\\Desktop\\边缘识别模型方法\\图片物体边缘的提取分割.png",
+      "thresholds": {
+        "opencv_canny": [
+          10,
+          100
+        ],
+        "skimage_canny": {
+          "low": 0.05,
+          "high": 0.15,
+          "sigma": 1.0
+        },
+        "pidinet_bin": 128,
+        "dexined_bin": 128
+      },
+      "size": [
+        438,
+        158
+      ],
+      "opencv_canny": {
+        "pixels": 9439,
+        "ratio": 0.1364,
+        "time_ms": 6
+      },
+      "skimage_canny": {
+        "pixels": 8544,
+        "ratio": 0.1235,
+        "time_ms": 204
+      },
+      "pidinet": {
+        "ok": true,
+        "elapsed_ms": 2425,
+        "returncode": 0,
+        "stdout_tail": "s\\18607\\Desktop\\边缘识别模型方法\\图片物体边缘的提取分割.png\n原图尺寸      : (158, 438)\ncheckpoint    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\PyTorch PiDiNet 实现\\pidinet-master\\trained_models\\table5_pidinet.pth\n边缘图已保存   : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_pidinet_edges.png\n二值图已保存   : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_pidinet_binary.png\n边缘强度范围   : min=0.0006, max=0.8963, mean=0.2839\n"
+      },
+      "dexined": {
+        "ok": true,
+        "elapsed_ms": 1671,
+        "returncode": 0,
+        "stdout_tail": "sed 边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_dexined_fused.png   (0.000~0.969)\navg   边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_dexined_avg.png   (0.008~0.911)\nfused 二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_dexined_fused_binary.png\navg   二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_dexined_avg_binary.png\n"
+      },
+      "dexined_double": {
+        "ok": true,
+        "elapsed_ms": 1831,
+        "returncode": 0,
+        "stdout_tail": "Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_dexined_double_fused.png   (0.000~0.969)\navg   边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_dexined_double_avg.png   (0.007~0.909)\nfused 二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_dexined_double_fused_binary.png\navg   二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_dexined_double_avg_binary.png\n"
+      },
+      "comparison_image": "C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\图片物体边缘的提取分割_comparison.png"
+    },
+    {
+      "image": "bsds_368037_原图",
+      "path": "C:\\Users\\18607\\Desktop\\bsds_368037_原图.jpg",
+      "thresholds": {
+        "opencv_canny": [
+          10,
+          100
+        ],
+        "skimage_canny": {
+          "low": 0.05,
+          "high": 0.15,
+          "sigma": 1.0
+        },
+        "pidinet_bin": 128,
+        "dexined_bin": 128
+      },
+      "size": [
+        481,
+        321
+      ],
+      "opencv_canny": {
+        "pixels": 28165,
+        "ratio": 0.1824,
+        "time_ms": 2
+      },
+      "skimage_canny": {
+        "pixels": 22190,
+        "ratio": 0.1437,
+        "time_ms": 7
+      },
+      "pidinet": {
+        "ok": true,
+        "elapsed_ms": 2777,
+        "returncode": 0,
+        "stdout_tail": "s\\18607\\Desktop\\bsds_368037_原图.jpg\n原图尺寸      : (321, 481)\ncheckpoint    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\PyTorch PiDiNet 实现\\pidinet-master\\trained_models\\table5_pidinet.pth\n边缘图已保存   : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_368037_原图_pidinet_edges.png\n二值图已保存   : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_368037_原图_pidinet_binary.png\n边缘强度范围   : min=0.0000, max=0.9867, mean=0.2242\n"
+      },
+      "dexined": {
+        "ok": true,
+        "elapsed_ms": 1858,
+        "returncode": 0,
+        "stdout_tail": " C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_368037_原图_dexined_fused.png   (0.000~0.997)\navg   边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_368037_原图_dexined_avg.png   (0.008~0.973)\nfused 二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_368037_原图_dexined_fused_binary.png\navg   二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_368037_原图_dexined_avg_binary.png\n"
+      },
+      "dexined_double": {
+        "ok": true,
+        "elapsed_ms": 2143,
+        "returncode": 0,
+        "stdout_tail": "模型方法\\对比模型\\outputs\\bsds_368037_原图_dexined_double_fused.png   (0.000~0.996)\navg   边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_368037_原图_dexined_double_avg.png   (0.007~0.971)\nfused 二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_368037_原图_dexined_double_fused_binary.png\navg   二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_368037_原图_dexined_double_avg_binary.png\n"
+      },
+      "comparison_image": "C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_368037_原图_comparison.png"
+    },
+    {
+      "image": "bsds_97010_原图",
+      "path": "C:\\Users\\18607\\Desktop\\bsds_97010_原图.jpg",
+      "thresholds": {
+        "opencv_canny": [
+          10,
+          100
+        ],
+        "skimage_canny": {
+          "low": 0.05,
+          "high": 0.15,
+          "sigma": 1.0
+        },
+        "pidinet_bin": 128,
+        "dexined_bin": 128
+      },
+      "size": [
+        481,
+        321
+      ],
+      "opencv_canny": {
+        "pixels": 37641,
+        "ratio": 0.2438,
+        "time_ms": 3
+      },
+      "skimage_canny": {
+        "pixels": 31783,
+        "ratio": 0.2058,
+        "time_ms": 7
+      },
+      "pidinet": {
+        "ok": true,
+        "elapsed_ms": 2686,
+        "returncode": 0,
+        "stdout_tail": "sers\\18607\\Desktop\\bsds_97010_原图.jpg\n原图尺寸      : (321, 481)\ncheckpoint    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\PyTorch PiDiNet 实现\\pidinet-master\\trained_models\\table5_pidinet.pth\n边缘图已保存   : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_pidinet_edges.png\n二值图已保存   : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_pidinet_binary.png\n边缘强度范围   : min=0.0000, max=0.9873, mean=0.1377\n"
+      },
+      "dexined": {
+        "ok": true,
+        "elapsed_ms": 1888,
+        "returncode": 0,
+        "stdout_tail": "   : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_dexined_fused.png   (0.000~0.962)\navg   边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_dexined_avg.png   (0.008~0.939)\nfused 二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_dexined_fused_binary.png\navg   二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_dexined_avg_binary.png\n"
+      },
+      "dexined_double": {
+        "ok": true,
+        "elapsed_ms": 2127,
+        "returncode": 0,
+        "stdout_tail": "边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_dexined_double_fused.png   (0.000~0.961)\navg   边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_dexined_double_avg.png   (0.007~0.938)\nfused 二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_dexined_double_fused_binary.png\navg   二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_dexined_double_avg_binary.png\n"
+      },
+      "comparison_image": "C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\bsds_97010_原图_comparison.png"
+    },
+    {
+      "image": "nyud_5017_原图",
+      "path": "C:\\Users\\18607\\Desktop\\nyud_5017_原图.png",
+      "thresholds": {
+        "opencv_canny": [
+          10,
+          100
+        ],
+        "skimage_canny": {
+          "low": 0.05,
+          "high": 0.15,
+          "sigma": 1.0
+        },
+        "pidinet_bin": 128,
+        "dexined_bin": 128
+      },
+      "size": [
+        224,
+        170
+      ],
+      "opencv_canny": {
+        "pixels": 6907,
+        "ratio": 0.1814,
+        "time_ms": 1
+      },
+      "skimage_canny": {
+        "pixels": 5761,
+        "ratio": 0.1513,
+        "time_ms": 2
+      },
+      "pidinet": {
+        "ok": true,
+        "elapsed_ms": 2396,
+        "returncode": 0,
+        "stdout_tail": ":\\Users\\18607\\Desktop\\nyud_5017_原图.png\n原图尺寸      : (170, 224)\ncheckpoint    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\PyTorch PiDiNet 实现\\pidinet-master\\trained_models\\table5_pidinet.pth\n边缘图已保存   : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_5017_原图_pidinet_edges.png\n二值图已保存   : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_5017_原图_pidinet_binary.png\n边缘强度范围   : min=0.0001, max=0.9533, mean=0.3349\n"
+      },
+      "dexined": {
+        "ok": true,
+        "elapsed_ms": 1630,
+        "returncode": 0,
+        "stdout_tail": "边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_5017_原图_dexined_fused.png   (0.000~0.981)\navg   边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_5017_原图_dexined_avg.png   (0.008~0.935)\nfused 二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_5017_原图_dexined_fused_binary.png\navg   二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_5017_原图_dexined_avg_binary.png\n"
+      },
+      "dexined_double": {
+        "ok": true,
+        "elapsed_ms": 1720,
+        "returncode": 0,
+        "stdout_tail": "top\\边缘识别模型方法\\对比模型\\outputs\\nyud_5017_原图_dexined_double_fused.png   (0.000~0.980)\navg   边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_5017_原图_dexined_double_avg.png   (0.007~0.933)\nfused 二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_5017_原图_dexined_double_fused_binary.png\navg   二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_5017_原图_dexined_double_avg_binary.png\n"
+      },
+      "comparison_image": "C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_5017_原图_comparison.png"
+    },
+    {
+      "image": "nyud_6233_原图",
+      "path": "C:\\Users\\18607\\Desktop\\nyud_6233_原图.png",
+      "thresholds": {
+        "opencv_canny": [
+          10,
+          100
+        ],
+        "skimage_canny": {
+          "low": 0.05,
+          "high": 0.15,
+          "sigma": 1.0
+        },
+        "pidinet_bin": 128,
+        "dexined_bin": 128
+      },
+      "size": [
+        224,
+        170
+      ],
+      "opencv_canny": {
+        "pixels": 7284,
+        "ratio": 0.1913,
+        "time_ms": 1
+      },
+      "skimage_canny": {
+        "pixels": 5238,
+        "ratio": 0.1376,
+        "time_ms": 2
+      },
+      "pidinet": {
+        "ok": true,
+        "elapsed_ms": 2414,
+        "returncode": 0,
+        "stdout_tail": ":\\Users\\18607\\Desktop\\nyud_6233_原图.png\n原图尺寸      : (170, 224)\ncheckpoint    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\PyTorch PiDiNet 实现\\pidinet-master\\trained_models\\table5_pidinet.pth\n边缘图已保存   : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_pidinet_edges.png\n二值图已保存   : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_pidinet_binary.png\n边缘强度范围   : min=0.0000, max=0.9705, mean=0.3439\n"
+      },
+      "dexined": {
+        "ok": true,
+        "elapsed_ms": 1758,
+        "returncode": 0,
+        "stdout_tail": "边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_dexined_fused.png   (0.000~0.964)\navg   边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_dexined_avg.png   (0.008~0.921)\nfused 二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_dexined_fused_binary.png\navg   二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_dexined_avg_binary.png\n"
+      },
+      "dexined_double": {
+        "ok": true,
+        "elapsed_ms": 1846,
+        "returncode": 0,
+        "stdout_tail": "top\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_dexined_double_fused.png   (0.000~0.961)\navg   边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_dexined_double_avg.png   (0.007~0.920)\nfused 二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_dexined_double_fused_binary.png\navg   二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_dexined_double_avg_binary.png\n"
+      },
+      "comparison_image": "C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_comparison.png"
+    }
+  ]
+}

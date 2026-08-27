@@ -1,0 +1,41 @@
+{
+  "name": "nyud_5017_原图",
+  "size": [
+    224,
+    170
+  ],
+  "lbm_denoise": {
+    "time_ms": 26,
+    "noise": 82.0,
+    "mode": "light",
+    "applied": true,
+    "n_steps": 5,
+    "tau_max": 0.6
+  },
+  "canny": {
+    "pixels": 5083,
+    "ratio": 0.1335,
+    "time_ms": 1
+  },
+  "segment": {
+    "n_segments": 320,
+    "skeleton_pixels": 3320,
+    "branch_points": 1096,
+    "n_adj_pairs": 74,
+    "time_ms": 20
+  },
+  "segment_4color": {
+    "used_colors": 3,
+    "conflicts": 0
+  },
+  "extract_objects": {
+    "n_objects": 28,
+    "object_pixels": 4578,
+    "time_ms": 1
+  },
+  "region_4color": {
+    "n_regions": 28,
+    "used_colors": 1,
+    "conflicts": 0
+  }
+}

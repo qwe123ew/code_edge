@@ -1,0 +1,29 @@
+{
+  "input": "C:\\Users\\18607\\Desktop\\nyud_6233_原图.png",
+  "image_size": [
+    224,
+    170
+  ],
+  "color_mode": true,
+  "gradient_mode": "tensor",
+  "edge_pixels": 2625,
+  "skeleton_pixels": 2409,
+  "junction_pixels": 22,
+  "n_segments": 56,
+  "n_adjacent_pairs": 14,
+  "n_closed_segments": 1,
+  "mean_segment_length": 44.02,
+  "max_segment_length": 194.6,
+  "total_segment_length": 2465.04,
+  "four_color_used": 3,
+  "four_color_enough": true,
+  "four_color_violations": 0,
+  "n_objects": 1,
+  "object_sizes_top5": [
+    30
+  ],
+  "n_region_adjacent_pairs": 1,
+  "region_four_color_used": 2,
+  "region_four_color_enough": true,
+  "run_pipeline_elapsed_ms": 90.0
+}

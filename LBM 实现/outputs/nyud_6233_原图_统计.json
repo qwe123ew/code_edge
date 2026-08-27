@@ -1,0 +1,41 @@
+{
+  "name": "nyud_6233_原图",
+  "size": [
+    224,
+    170
+  ],
+  "lbm_denoise": {
+    "time_ms": 27,
+    "noise": 61.0,
+    "mode": "light",
+    "applied": true,
+    "n_steps": 5,
+    "tau_max": 0.6
+  },
+  "canny": {
+    "pixels": 6380,
+    "ratio": 0.1675,
+    "time_ms": 1
+  },
+  "segment": {
+    "n_segments": 621,
+    "skeleton_pixels": 4419,
+    "branch_points": 2077,
+    "n_adj_pairs": 142,
+    "time_ms": 14
+  },
+  "segment_4color": {
+    "used_colors": 3,
+    "conflicts": 0
+  },
+  "extract_objects": {
+    "n_objects": 33,
+    "object_pixels": 6387,
+    "time_ms": 1
+  },
+  "region_4color": {
+    "n_regions": 33,
+    "used_colors": 1,
+    "conflicts": 0
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "图片物体边缘的提取分割",
+  "size": [
+    438,
+    158
+  ],
+  "lbm_denoise": {
+    "time_ms": 7,
+    "noise": 37.0,
+    "mode": "skip",
+    "applied": false,
+    "n_steps": 0,
+    "tau_max": 0.0
+  },
+  "canny": {
+    "pixels": 10506,
+    "ratio": 0.1518,
+    "time_ms": 1
+  },
+  "segment": {
+    "n_segments": 590,
+    "skeleton_pixels": 5623,
+    "branch_points": 2009,
+    "n_adj_pairs": 109,
+    "time_ms": 26
+  },
+  "segment_4color": {
+    "used_colors": 3,
+    "conflicts": 0
+  },
+  "extract_objects": {
+    "n_objects": 32,
+    "object_pixels": 24018,
+    "time_ms": 1
+  },
+  "region_4color": {
+    "n_regions": 32,
+    "used_colors": 1,
+    "conflicts": 0
+  }
+}

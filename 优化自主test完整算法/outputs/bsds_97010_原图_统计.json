@@ -1,0 +1,33 @@
+{
+  "input": "C:\\Users\\18607\\Desktop\\bsds_97010_原图.jpg",
+  "image_size": [
+    481,
+    321
+  ],
+  "color_mode": true,
+  "gradient_mode": "tensor",
+  "edge_pixels": 13258,
+  "skeleton_pixels": 10972,
+  "junction_pixels": 449,
+  "n_segments": 292,
+  "n_adjacent_pairs": 175,
+  "n_closed_segments": 7,
+  "mean_segment_length": 36.2,
+  "max_segment_length": 600.66,
+  "total_segment_length": 10571.22,
+  "four_color_used": 3,
+  "four_color_enough": true,
+  "four_color_violations": 0,
+  "n_objects": 31,
+  "object_sizes_top5": [
+    209,
+    225,
+    286,
+    424,
+    594
+  ],
+  "n_region_adjacent_pairs": 25,
+  "region_four_color_used": 3,
+  "region_four_color_enough": true,
+  "run_pipeline_elapsed_ms": 448.2
+}

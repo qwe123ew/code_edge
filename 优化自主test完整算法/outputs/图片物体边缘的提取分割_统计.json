@@ -1,0 +1,33 @@
+{
+  "input": "C:\\Users\\18607\\Desktop\\边缘识别模型方法\\图片物体边缘的提取分割.png",
+  "image_size": [
+    438,
+    158
+  ],
+  "color_mode": true,
+  "gradient_mode": "tensor",
+  "edge_pixels": 6325,
+  "skeleton_pixels": 5899,
+  "junction_pixels": 80,
+  "n_segments": 88,
+  "n_adjacent_pairs": 57,
+  "n_closed_segments": 3,
+  "mean_segment_length": 66.39,
+  "max_segment_length": 755.79,
+  "total_segment_length": 5842.75,
+  "four_color_used": 3,
+  "four_color_enough": true,
+  "four_color_violations": 0,
+  "n_objects": 12,
+  "object_sizes_top5": [
+    75,
+    83,
+    110,
+    151,
+    562
+  ],
+  "n_region_adjacent_pairs": 10,
+  "region_four_color_used": 2,
+  "region_four_color_enough": true,
+  "run_pipeline_elapsed_ms": 179.0
+}

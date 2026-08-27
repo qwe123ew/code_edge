@@ -1,0 +1,207 @@
+[
+  {
+    "name": "图片物体边缘的提取分割",
+    "size": [
+      438,
+      158
+    ],
+    "lbm_denoise": {
+      "time_ms": 7,
+      "noise": 37.0,
+      "mode": "skip",
+      "applied": false,
+      "n_steps": 0,
+      "tau_max": 0.0
+    },
+    "canny": {
+      "pixels": 10506,
+      "ratio": 0.1518,
+      "time_ms": 1
+    },
+    "segment": {
+      "n_segments": 590,
+      "skeleton_pixels": 5623,
+      "branch_points": 2009,
+      "n_adj_pairs": 109,
+      "time_ms": 26
+    },
+    "segment_4color": {
+      "used_colors": 3,
+      "conflicts": 0
+    },
+    "extract_objects": {
+      "n_objects": 32,
+      "object_pixels": 24018,
+      "time_ms": 1
+    },
+    "region_4color": {
+      "n_regions": 32,
+      "used_colors": 1,
+      "conflicts": 0
+    }
+  },
+  {
+    "name": "bsds_368037_原图",
+    "size": [
+      481,
+      321
+    ],
+    "lbm_denoise": {
+      "time_ms": 109,
+      "noise": 81.0,
+      "mode": "light",
+      "applied": true,
+      "n_steps": 5,
+      "tau_max": 0.6
+    },
+    "canny": {
+      "pixels": 11900,
+      "ratio": 0.0771,
+      "time_ms": 1
+    },
+    "segment": {
+      "n_segments": 952,
+      "skeleton_pixels": 8375,
+      "branch_points": 3627,
+      "n_adj_pairs": 230,
+      "time_ms": 52
+    },
+    "segment_4color": {
+      "used_colors": 3,
+      "conflicts": 0
+    },
+    "extract_objects": {
+      "n_objects": 30,
+      "object_pixels": 5852,
+      "time_ms": 3
+    },
+    "region_4color": {
+      "n_regions": 30,
+      "used_colors": 1,
+      "conflicts": 0
+    }
+  },
+  {
+    "name": "bsds_97010_原图",
+    "size": [
+      481,
+      321
+    ],
+    "lbm_denoise": {
+      "time_ms": 132,
+      "noise": 196.0,
+      "mode": "light",
+      "applied": true,
+      "n_steps": 5,
+      "tau_max": 0.6
+    },
+    "canny": {
+      "pixels": 22763,
+      "ratio": 0.1474,
+      "time_ms": 1
+    },
+    "segment": {
+      "n_segments": 1455,
+      "skeleton_pixels": 12157,
+      "branch_points": 6125,
+      "n_adj_pairs": 228,
+      "time_ms": 72
+    },
+    "segment_4color": {
+      "used_colors": 3,
+      "conflicts": 0
+    },
+    "extract_objects": {
+      "n_objects": 37,
+      "object_pixels": 2601,
+      "time_ms": 3
+    },
+    "region_4color": {
+      "n_regions": 37,
+      "used_colors": 1,
+      "conflicts": 0
+    }
+  },
+  {
+    "name": "nyud_5017_原图",
+    "size": [
+      224,
+      170
+    ],
+    "lbm_denoise": {
+      "time_ms": 26,
+      "noise": 82.0,
+      "mode": "light",
+      "applied": true,
+      "n_steps": 5,
+      "tau_max": 0.6
+    },
+    "canny": {
+      "pixels": 5083,
+      "ratio": 0.1335,
+      "time_ms": 1
+    },
+    "segment": {
+      "n_segments": 320,
+      "skeleton_pixels": 3320,
+      "branch_points": 1096,
+      "n_adj_pairs": 74,
+      "time_ms": 20
+    },
+    "segment_4color": {
+      "used_colors": 3,
+      "conflicts": 0
+    },
+    "extract_objects": {
+      "n_objects": 28,
+      "object_pixels": 4578,
+      "time_ms": 1
+    },
+    "region_4color": {
+      "n_regions": 28,
+      "used_colors": 1,
+      "conflicts": 0
+    }
+  },
+  {
+    "name": "nyud_6233_原图",
+    "size": [
+      224,
+      170
+    ],
+    "lbm_denoise": {
+      "time_ms": 27,
+      "noise": 61.0,
+      "mode": "light",
+      "applied": true,
+      "n_steps": 5,
+      "tau_max": 0.6
+    },
+    "canny": {
+      "pixels": 6380,
+      "ratio": 0.1675,
+      "time_ms": 1
+    },
+    "segment": {
+      "n_segments": 621,
+      "skeleton_pixels": 4419,
+      "branch_points": 2077,
+      "n_adj_pairs": 142,
+      "time_ms": 14
+    },
+    "segment_4color": {
+      "used_colors": 3,
+      "conflicts": 0
+    },
+    "extract_objects": {
+      "n_objects": 33,
+      "object_pixels": 6387,
+      "time_ms": 1
+    },
+    "region_4color": {
+      "n_regions": 33,
+      "used_colors": 1,
+      "conflicts": 0
+    }
+  }
+]

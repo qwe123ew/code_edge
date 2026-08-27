@@ -1,0 +1,31 @@
+{
+  "input": "C:\\Users\\18607\\Desktop\\nyud_5017_原图.png",
+  "image_size": [
+    224,
+    170
+  ],
+  "color_mode": true,
+  "gradient_mode": "tensor",
+  "edge_pixels": 2918,
+  "skeleton_pixels": 2753,
+  "junction_pixels": 56,
+  "n_segments": 44,
+  "n_adjacent_pairs": 21,
+  "n_closed_segments": 1,
+  "mean_segment_length": 61.39,
+  "max_segment_length": 650.37,
+  "total_segment_length": 2701.19,
+  "four_color_used": 3,
+  "four_color_enough": true,
+  "four_color_violations": 0,
+  "n_objects": 3,
+  "object_sizes_top5": [
+    66,
+    69,
+    1069
+  ],
+  "n_region_adjacent_pairs": 4,
+  "region_four_color_used": 3,
+  "region_four_color_enough": true,
+  "run_pipeline_elapsed_ms": 79.1
+}

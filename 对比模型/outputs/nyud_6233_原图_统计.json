@@ -1,0 +1,50 @@
+{
+  "image": "nyud_6233_原图",
+  "path": "C:\\Users\\18607\\Desktop\\nyud_6233_原图.png",
+  "thresholds": {
+    "opencv_canny": [
+      10,
+      100
+    ],
+    "skimage_canny": {
+      "low": 0.05,
+      "high": 0.15,
+      "sigma": 1.0
+    },
+    "pidinet_bin": 128,
+    "dexined_bin": 128
+  },
+  "size": [
+    224,
+    170
+  ],
+  "opencv_canny": {
+    "pixels": 7284,
+    "ratio": 0.1913,
+    "time_ms": 1
+  },
+  "skimage_canny": {
+    "pixels": 5238,
+    "ratio": 0.1376,
+    "time_ms": 2
+  },
+  "pidinet": {
+    "ok": true,
+    "elapsed_ms": 2414,
+    "returncode": 0,
+    "stdout_tail": ":\\Users\\18607\\Desktop\\nyud_6233_原图.png\n原图尺寸      : (170, 224)\ncheckpoint    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\PyTorch PiDiNet 实现\\pidinet-master\\trained_models\\table5_pidinet.pth\n边缘图已保存   : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_pidinet_edges.png\n二值图已保存   : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_pidinet_binary.png\n边缘强度范围   : min=0.0000, max=0.9705, mean=0.3439\n"
+  },
+  "dexined": {
+    "ok": true,
+    "elapsed_ms": 1758,
+    "returncode": 0,
+    "stdout_tail": "边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_dexined_fused.png   (0.000~0.964)\navg   边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_dexined_avg.png   (0.008~0.921)\nfused 二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_dexined_fused_binary.png\navg   二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_dexined_avg_binary.png\n"
+  },
+  "dexined_double": {
+    "ok": true,
+    "elapsed_ms": 1846,
+    "returncode": 0,
+    "stdout_tail": "top\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_dexined_double_fused.png   (0.000~0.961)\navg   边缘图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_dexined_double_avg.png   (0.007~0.920)\nfused 二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_dexined_double_fused_binary.png\navg   二值图    : C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_dexined_double_avg_binary.png\n"
+  },
+  "comparison_image": "C:\\Users\\18607\\Desktop\\边缘识别模型方法\\对比模型\\outputs\\nyud_6233_原图_comparison.png"
+}

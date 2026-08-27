@@ -1,0 +1,41 @@
+{
+  "name": "bsds_368037_原图",
+  "size": [
+    481,
+    321
+  ],
+  "lbm_denoise": {
+    "time_ms": 109,
+    "noise": 81.0,
+    "mode": "light",
+    "applied": true,
+    "n_steps": 5,
+    "tau_max": 0.6
+  },
+  "canny": {
+    "pixels": 11900,
+    "ratio": 0.0771,
+    "time_ms": 1
+  },
+  "segment": {
+    "n_segments": 952,
+    "skeleton_pixels": 8375,
+    "branch_points": 3627,
+    "n_adj_pairs": 230,
+    "time_ms": 52
+  },
+  "segment_4color": {
+    "used_colors": 3,
+    "conflicts": 0
+  },
+  "extract_objects": {
+    "n_objects": 30,
+    "object_pixels": 5852,
+    "time_ms": 3
+  },
+  "region_4color": {
+    "n_regions": 30,
+    "used_colors": 1,
+    "conflicts": 0
+  }
+}
