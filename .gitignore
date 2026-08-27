@@ -16,12 +16,12 @@ weights/
 pretrained/
 
 # Office lock files
-~$.docx
-~$.xlsx
-~$.pptx
-~$.doc
-~$.xls
-~$.ppt
+~$*.docx
+~$*.xlsx
+~$*.pptx
+~$*.doc
+~$*.xls
+~$*.ppt
 .~lock.*
 
 # Editor / OS
@@ -31,4 +31,4 @@ pretrained/
 Thumbs.db
 
 # Local Claude config (machine-specific)
-.claude/settings.local.json
+.claude/
